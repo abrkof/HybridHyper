@@ -1,9 +1,0 @@
-@foreach($municipios as $munpo)
-      @foreach($munpo->munpo as $deptos)
-          <p>Municipio por Departamento</p>
-           {!! $deptos->depto !!}
-      @endforeach
-@endforeach
-
-Abraham [23:10] 
-https://laravelcollective.com/docs/5.4/html#installation
